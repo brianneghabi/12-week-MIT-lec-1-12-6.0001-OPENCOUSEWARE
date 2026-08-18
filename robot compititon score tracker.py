@@ -1,0 +1,25 @@
+print("=== Robot Competition Score Manager ===")
+
+robots = []
+
+num_robots = int(input("How many robots are competing? "))
+
+for i in range(num_robots):
+    print(f"\nRobot {i + 1}")
+    name = input("Robot Name: ")
+
+    total = 0
+    for round_num in range(1, 4):
+        score = int(input(f"Round {round_num} Score: "))
+        total += score
+
+    robots.append([name, total])
+
+robots.sort(key=lambda robot: robot[1], reverse=True)
+
+print("\n===== LEADERBOARD =====")
+for position, robot in enumerate(robots, start=1):
+    print(f"{position}. {robot[0]} - {robot[1]} points")
+
+print(f"\n🏆 Champion: {robots[0][0]}")
+print(f"Winning Score: {robots[0][1]} points")
