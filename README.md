@@ -804,3 +804,136 @@ Week 8 expanded my portfolio with another playable Python application while rein
 Hangman demonstrated the practical relationship between data structures, control flow, input handling, and game-state management.
 
 The project also strengthened my understanding of testing and edge cases, providing another step toward developing software that is not merely functional, but reliable and enjoyable to use.
+
+
+
+
+
+
+# Week 9 — Password Strength Checker
+
+## Overview
+
+Week 9 introduced a project with a more practical security-oriented purpose: the **Password Strength Checker**.
+
+The objective was to develop a Python application capable of evaluating passwords according to several characteristics and providing meaningful feedback to the user.
+
+The project focuses on a fundamental principle of cybersecurity: stronger passwords generally provide better protection against unauthorised access than short or predictable passwords.
+
+However, the primary purpose of this project was educational. It provided an opportunity to combine string processing, conditionals, logical operators, validation, scoring systems, and user feedback into one application.
+
+## Project Objectives
+
+The main objectives were:
+
+* Ask the user to enter a password.
+* Measure password length.
+* Detect uppercase letters.
+* Detect lowercase letters.
+* Detect numerical characters.
+* Detect special characters.
+* Assign points based on password characteristics.
+* Classify passwords as Weak, Medium, or Strong.
+* Detect extremely short passwords.
+* Identify simple or common patterns.
+* Provide specific improvement recommendations.
+* Test multiple password scenarios.
+* Document and publish version 1.0.
+
+## Password Analysis
+
+The first stage of the program analyses the characteristics of the password.
+
+Length is one of the most important basic properties because extremely short passwords have a much smaller number of possible combinations.
+
+The checker also examines whether the password contains different character categories, including uppercase letters, lowercase letters, numbers, and special characters.
+
+Rather than simply producing a binary result, the project uses a scoring approach.
+
+Meeting different requirements contributes points toward an overall strength classification.
+
+## Strength Classification
+
+The checker categorises passwords into three broad levels:
+
+* **Weak**
+* **Medium**
+* **Strong**
+
+Conditional statements are used to determine which category corresponds to the calculated score.
+
+This provided practical experience with `if`, `elif`, and `else` statements while also demonstrating how multiple individual conditions can contribute to a larger decision.
+
+## Feedback System
+
+One of the most important improvements to the project was the feedback system.
+
+A password checker should not merely tell a user that their password is weak. It should explain why and provide actionable suggestions.
+
+For example, the program can identify missing characteristics and provide recommendations such as:
+
+* Add a number.
+* Add a special character.
+* Include uppercase letters.
+* Make the password longer.
+
+This makes the application more useful because the output becomes guidance rather than simply a classification.
+
+## Pattern Detection
+
+The project was also designed to identify simple password patterns.
+
+Predictable passwords can be problematic even when they technically satisfy certain character requirements.
+
+For example, a password can contain letters and numbers while still following an extremely simple structure.
+
+Therefore, the checker attempts to identify common or overly simplistic patterns rather than relying exclusively on a point-based system.
+
+This introduced an important security concept: password quality cannot always be represented by a single numerical score.
+
+## Testing
+
+Testing was an essential part of Week 9.
+
+The program was tested against several categories of input, including:
+
+1. Very short passwords.
+2. Passwords containing only letters.
+3. Passwords containing letters and numbers.
+4. Strong passwords containing multiple character types.
+5. Passwords containing special characters.
+6. Empty input.
+
+Testing different categories helped reveal weaknesses in the logic and ensured that the program behaved predictably under different circumstances.
+
+## Error Handling
+
+Handling invalid or unexpected input was another important component.
+
+A reliable program should not crash simply because a user provides unexpected information.
+
+This principle connects directly to the error-handling work completed earlier in the portfolio and demonstrates how previously learned concepts can be reused in more advanced projects.
+
+## Documentation & Publication
+
+The final stage involved cleaning up the implementation, documenting the project, recording testing results, and preparing the application for publication.
+
+Version 1.0 represents the point at which the project was considered sufficiently stable and documented for inclusion in the portfolio.
+
+## Lessons Learned
+
+The most important lesson from this project was that programming can be used to address practical problems.
+
+The Password Strength Checker required significantly more reasoning than simply checking individual characters. It required the development of a scoring system, classification logic, feedback mechanisms, validation, and pattern detection.
+
+The project also introduced a security-oriented perspective and demonstrated why simplistic solutions can be misleading.
+
+## Conclusion
+
+Week 9 represents a significant progression in my Python development.
+
+The Password Strength Checker combines many of the concepts developed throughout the previous weeks into a single practical application.
+
+It demonstrates my ability to analyse requirements, design logical rules, process user input, validate information, test multiple scenarios, and document a completed project.
+
+More importantly, the project reinforces the central philosophy of this portfolio: programming should not be studied solely for the purpose of learning syntax. The ultimate objective is to acquire the ability to use technology to solve meaningful problems and build useful software.
