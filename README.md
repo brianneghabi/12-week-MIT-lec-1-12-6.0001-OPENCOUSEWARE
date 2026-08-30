@@ -375,3 +375,101 @@ Across the first four weeks, I progressed from fundamental syntax and simple cal
 The Robot Competition Score Manager represented this progression by requiring multiple programming concepts to work together around a realistic problem.
 
 The knowledge gained during this week provides a foundation for approaching increasingly complex software and robotics-related projects.
+
+
+
+
+
+
+# Week 5 — GitHub Mastery & Professional Development
+
+## Overview
+
+Week 5 focused on an aspect of software development that extends beyond programming itself: **professional version control and collaboration using GitHub**.
+
+Writing functional code is only one part of becoming a capable software developer. Modern development depends heavily on version control, documentation, collaboration, code review, and the ability to maintain projects over time.
+
+This week was therefore dedicated to developing a professional GitHub workflow and understanding how software projects are managed beyond the code editor.
+
+## Learning Objectives
+
+The objectives for Week 5 were:
+
+* Understand the fundamentals of GitHub.
+* Learn how repositories are structured.
+* Improve README documentation using Markdown.
+* Understand the purpose of commits.
+* Learn how branches can support development.
+* Understand pull requests and code review.
+* Learn how merge conflicts occur.
+* Develop strategies for resolving conflicts.
+* Improve the presentation of my GitHub profile.
+* Build a consistent development history.
+
+## GitHub
+
+GitHub provides an environment for hosting and managing software projects using Git version control.
+
+Throughout the previous weeks, GitHub was primarily used as a location for publishing completed projects. Week 5 expanded this understanding by focusing on GitHub as a development platform rather than simply a storage location.
+
+A professional repository should communicate clearly what a project does, why it exists, how it can be used, and how it was developed.
+
+## Commits
+
+Commits provide a historical record of changes made to a project.
+
+Rather than treating a project as a single finished object, version control allows development to be viewed as a sequence of improvements.
+
+The goal for this week was to develop a consistent committing habit and contribute meaningful changes rather than creating commits solely to increase a numerical total.
+
+The target of 25 commits encouraged regular development activity while reinforcing the importance of making changes that represent genuine progress.
+
+## Markdown & Documentation
+
+Markdown became another important skill during this week.
+
+GitHub uses Markdown extensively for README files and other project documentation. Learning to structure documentation effectively allows technical information to become easier to navigate and understand.
+
+Professional documentation should have a clear hierarchy, meaningful headings, concise explanations, and appropriate formatting.
+
+This skill is particularly valuable because documentation is often the first part of a project that another developer or recruiter will encounter.
+
+## Pull Requests
+
+Pull requests provide a mechanism for proposing and reviewing changes before they become part of a project's primary codebase.
+
+Understanding pull requests introduced the concept of code review.
+
+Code review is valuable because another developer may identify problems, inconsistencies, or improvements that the original author did not notice.
+
+This reinforces an important principle of professional development: software quality improves when code is examined from multiple perspectives.
+
+## Merge Conflicts
+
+Merge conflicts occur when Git cannot automatically reconcile competing changes.
+
+Although conflicts can initially appear intimidating, understanding why they occur makes them significantly easier to resolve.
+
+The important lesson is that conflicts are a normal part of collaborative software development rather than evidence that the version-control system has failed.
+
+## Professional GitHub Profile
+
+The final focus of Week 5 was the presentation of my GitHub profile.
+
+A professional profile should provide a clear representation of technical interests, projects, progress, and capabilities.
+
+Repositories should be organised and documented consistently so that someone unfamiliar with my work can understand what I have created.
+
+## Lessons Learned
+
+The most important lesson from Week 5 was that professional programming involves much more than writing code.
+
+Version control, documentation, collaboration, code review, and project presentation are all essential skills.
+
+## Conclusion
+
+Week 5 transformed GitHub from a basic publishing platform into an important part of my development workflow.
+
+By learning version control concepts, Markdown, pull requests, merge conflicts, and professional repository management, I developed skills that will remain relevant as future projects become larger and more collaborative.
+
+The experience also reinforced the importance of treating software development as an organised engineering process rather than simply writing code until a program works.
