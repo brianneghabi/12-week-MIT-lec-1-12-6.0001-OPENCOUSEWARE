@@ -685,3 +685,122 @@ Week 7 transformed Tic-Tac-Toe from an initial implementation into a more refine
 Through debugging, validation, testing, and interface improvements, the project demonstrated the complete development cycle more effectively than simply creating a program from scratch.
 
 The experience provided a practical introduction to software maintenance and reinforced the importance of testing every system against both expected and unexpected behaviour.
+
+
+
+
+
+
+# Week 8 — Hangman
+
+## Overview
+
+Week 8 introduced the development of a second complete game: **Hangman**.
+
+The objective was to create a playable Python implementation of Hangman while reinforcing several fundamental programming concepts, particularly conditionals, loops, strings, and lists.
+
+Unlike a simple exercise, Hangman requires the program to maintain a continuously changing game state. The secret word must remain hidden, the player's progress must be displayed, incorrect guesses must be tracked, and the program must determine when the game has ended.
+
+## Project Objectives
+
+The primary objectives were:
+
+* Create a dedicated `hangman.py` program.
+* Select a secret word.
+* Represent unknown letters using placeholders.
+* Allow the player to enter guesses.
+* Determine whether guessed letters exist in the word.
+* Reveal correctly guessed letters.
+* Track incorrect guesses.
+* Limit the number of failed attempts.
+* Detect victories and defeats.
+* Provide clear feedback throughout the game.
+
+## Game Setup
+
+The game begins by selecting a secret word from a predefined collection.
+
+The word is not immediately shown to the player. Instead, its letters are represented using underscores or another placeholder system.
+
+For example, a hidden word containing five letters could initially appear as:
+
+`_ _ _ _ _`
+
+This creates the central challenge of the game while giving the player enough information to understand their progress.
+
+## Player Interaction
+
+The player is repeatedly asked to provide a letter.
+
+The program then determines whether that letter exists within the secret word.
+
+If the letter is present, every corresponding position can be revealed. If the letter is absent, the player's number of remaining attempts is reduced.
+
+This simple mechanism creates a continuous interaction between the player and the program.
+
+## Strings & Lists
+
+Hangman provided an especially useful opportunity to practise strings and lists.
+
+The secret word is fundamentally a string, while the visible representation of the player's progress can be managed through a list.
+
+Lists are particularly useful because individual positions can be updated as correct letters are discovered.
+
+This project therefore demonstrated a practical reason for learning data structures rather than treating them as isolated Python concepts.
+
+## Game State
+
+At every stage of the game, the program must maintain several pieces of information.
+
+These include:
+
+* The secret word.
+* The letters currently revealed.
+* Letters already guessed.
+* The number of incorrect attempts.
+* Whether the player has completed the word.
+* Whether the player has lost.
+
+Managing this information correctly is essential because the program's next action depends on the current state.
+
+## Validation
+
+The game also requires careful handling of user input.
+
+The player should enter a valid letter rather than an unrelated character or an invalid input format.
+
+Repeated guesses must also be considered. If a player guesses the same letter multiple times, the program should handle the situation sensibly rather than treating every repeated guess as an entirely new action.
+
+## Testing
+
+Testing focused on the different possible outcomes of the game.
+
+Important test cases included:
+
+* Correct guesses.
+* Incorrect guesses.
+* Repeated guesses.
+* Completing the entire word.
+* Using all available attempts.
+* Invalid input.
+* Words containing repeated letters.
+
+Testing these situations helped ensure that the game's underlying state remained consistent.
+
+## Lessons Learned
+
+The biggest lesson from Hangman was the importance of maintaining state across repeated interactions.
+
+Unlike a program that calculates one result and terminates, a game continuously changes according to player decisions.
+
+This requires careful coordination between loops, variables, lists, strings, and conditionals.
+
+The project also demonstrated how a relatively small amount of Python code can create a complete interactive experience when the underlying logic is properly designed.
+
+## Conclusion
+
+Week 8 expanded my portfolio with another playable Python application while reinforcing concepts learned throughout the previous weeks.
+
+Hangman demonstrated the practical relationship between data structures, control flow, input handling, and game-state management.
+
+The project also strengthened my understanding of testing and edge cases, providing another step toward developing software that is not merely functional, but reliable and enjoyable to use.
