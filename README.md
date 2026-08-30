@@ -579,3 +579,109 @@ Week 6 established the foundation of the Tic-Tac-Toe project.
 Rather than treating the game as one large block of code, the project was approached as a collection of interconnected systems.
 
 This approach improved my understanding of program architecture and prepared the project for further refinement and improvement in the following week.
+
+
+
+
+
+
+# Week 7 — Tic-Tac-Toe Refinement & Improvement
+
+## Overview
+
+Week 7 continued the Tic-Tac-Toe project with a focus on **refinement, debugging, reliability, and improvement**.
+
+Developing the initial version of a program is only the first stage of software engineering. A program may function under ideal circumstances while still containing usability problems, logical weaknesses, or edge cases that have not been considered.
+
+The purpose of Week 7 was therefore to examine the existing implementation critically and improve its overall quality.
+
+## Objectives
+
+The main objectives were:
+
+* Review the existing Tic-Tac-Toe implementation.
+* Identify logical and usability problems.
+* Improve board interaction.
+* Strengthen input validation.
+* Ensure invalid moves are handled correctly.
+* Improve game-state management.
+* Test winning and draw conditions.
+* Refine the user interface.
+* Remove unnecessary or problematic code.
+* Produce a more reliable final implementation.
+
+## Debugging
+
+Debugging became one of the most important activities during this stage.
+
+A program can appear functional during normal gameplay while failing under less common circumstances.
+
+For example, a player might enter invalid input, select an occupied square, or attempt to provide a value outside the expected range.
+
+These situations require the program to respond appropriately rather than crashing or corrupting the game state.
+
+## Input Validation
+
+Input validation was therefore treated as an important part of the refinement process.
+
+The program should not assume that the player will always provide valid information.
+
+A robust game verifies that the selected position exists, that the input has the correct format, and that the selected square is available.
+
+This makes the program more resilient and creates a better experience for the player.
+
+## Game Logic
+
+The winning and draw detection systems were also examined carefully.
+
+Because Tic-Tac-Toe contains a relatively small number of possible winning combinations, it is possible to explicitly evaluate each one.
+
+However, correctness is critical. A single incorrect condition could allow a winning move to be missed or incorrectly declare a winner.
+
+Testing therefore needed to include horizontal victories, vertical victories, diagonal victories, and draw scenarios.
+
+## User Experience
+
+The refinement process also involved improving the way information was presented to the player.
+
+A game should communicate clearly what is happening, whose turn it is, which inputs are expected, and what the result of the game is.
+
+Even in a command-line application, thoughtful presentation makes the program considerably easier to use.
+
+This reinforced the principle that software quality includes both technical correctness and user experience.
+
+## Testing Strategy
+
+Testing was performed across a variety of scenarios.
+
+The game needed to handle:
+
+* Valid moves.
+* Invalid positions.
+* Occupied squares.
+* Winning rows.
+* Winning columns.
+* Winning diagonals.
+* Draw situations.
+* Repeated interaction.
+* Unexpected user input.
+
+Testing these cases increased confidence in the final implementation.
+
+## Lessons Learned
+
+The most valuable lesson from Week 7 was that **building software and improving software are different skills**.
+
+The initial version demonstrates whether an idea can be implemented. Refinement determines whether the implementation is reliable enough to be considered a quality program.
+
+This distinction is fundamental to professional development.
+
+I also learned that debugging is not simply about fixing visible errors. It involves questioning assumptions and deliberately attempting to find situations in which the program could fail.
+
+## Conclusion
+
+Week 7 transformed Tic-Tac-Toe from an initial implementation into a more refined and reliable application.
+
+Through debugging, validation, testing, and interface improvements, the project demonstrated the complete development cycle more effectively than simply creating a program from scratch.
+
+The experience provided a practical introduction to software maintenance and reinforced the importance of testing every system against both expected and unexpected behaviour.
