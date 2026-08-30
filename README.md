@@ -68,3 +68,99 @@ Week 1 established the foundation for the remainder of the portfolio. I develope
 More importantly, this week introduced the mindset that programming is not simply about memorising syntax. It is about understanding problems, designing solutions, testing assumptions, and continuously improving implementations.
 
 This foundation will support the increasingly complex projects developed throughout the following weeks.
+
+
+
+
+
+# Week 2 — Control Flow & Number Guessing Game
+
+## Overview
+
+Week 2 focused on one of the most important transitions in programming: moving from sequential instructions to programs capable of making decisions and repeating operations.
+
+The central concepts studied during this week were **conditionals, loops, and nested loops**. These concepts fundamentally expand what a program can accomplish because they allow software to respond dynamically to circumstances rather than simply executing a predetermined sequence of instructions.
+
+The practical project for the week was a **Number Guessing Game**. Although the project is relatively simple in appearance, it provided an effective environment for applying the core control-flow concepts studied throughout the week.
+
+## Learning Objectives
+
+The objectives for Week 2 were:
+
+* Understand conditional statements.
+* Use `if`, `elif`, and `else` effectively.
+* Understand how programs evaluate logical conditions.
+* Learn how loops control repeated execution.
+* Understand the difference between common looping approaches.
+* Explore nested loops.
+* Apply control-flow concepts to a complete program.
+* Develop stronger debugging and problem-solving skills.
+* Publish a completed project through GitHub.
+
+## Conditionals
+
+Conditionals allow programs to make decisions.
+
+A program can evaluate information and execute different instructions depending on the result. This is one of the fundamental mechanisms behind interactive software.
+
+For example, a number-guessing game needs to determine whether the player's guess is too high, too low, or correct. Each possibility requires a different response, making conditional logic essential to the project's functionality.
+
+Learning to structure these decisions clearly was an important part of the week. Poorly organised conditions can make programs difficult to understand and can result in logical errors.
+
+## Loops
+
+Loops introduced another major programming capability: repetition.
+
+Instead of writing the same instructions repeatedly, a loop allows a program to execute a block of code multiple times according to a specified condition or sequence.
+
+This concept is particularly useful for interactive programs. In the Number Guessing Game, the player should normally be able to continue guessing until they either find the correct number or reach the game's limit.
+
+Loops therefore transformed the project from a simple one-time interaction into an actual game.
+
+## Nested Loops
+
+Nested loops were also introduced during this week. A nested loop is a loop operating inside another loop.
+
+Although nested loops can become computationally expensive when used carelessly, they are extremely useful for problems involving multiple layers of repetition.
+
+Understanding their structure also improved my ability to reason about how Python executes code and how individual blocks interact with one another.
+
+## Number Guessing Game
+
+The major project for Week 2 was the Number Guessing Game.
+
+The concept is straightforward: the program selects a number, and the player attempts to determine what it is. After each guess, the program evaluates the player's input and provides information about whether the guess is higher or lower than the target.
+
+The project required several concepts to work together:
+
+* Variables to store the target and player input.
+* Input handling to receive guesses.
+* Conditionals to evaluate guesses.
+* Loops to allow repeated attempts.
+* Logical reasoning to determine when the game should terminate.
+
+The simplicity of the concept was beneficial because it allowed the focus to remain on programming logic rather than complicated application design.
+
+## Testing & Debugging
+
+Testing became increasingly important during this project.
+
+A functioning program must be tested against multiple possible situations, not merely the ideal scenario. I therefore considered situations such as correct guesses, incorrect guesses, repeated attempts, and boundary conditions.
+
+Debugging these scenarios helped demonstrate the difference between syntax errors and logical errors. A program can execute without producing a Python error while still behaving incorrectly.
+
+## Lessons Learned
+
+The most significant lesson from Week 2 was that control flow is what gives programs their intelligence and flexibility.
+
+Variables allow programs to remember information, but conditionals and loops determine what the program actually does with that information.
+
+The Number Guessing Game demonstrated how relatively small pieces of logic can combine to create an interactive experience.
+
+## Conclusion
+
+Week 2 expanded my Python knowledge beyond basic syntax and introduced the foundations of program logic.
+
+By studying conditionals, loops, and nested loops and applying them to a complete game, I developed a stronger understanding of how programs make decisions, repeat operations, and respond to users.
+
+The Number Guessing Game also represented an important step toward building larger projects because it required multiple concepts to operate together within one coherent application.
