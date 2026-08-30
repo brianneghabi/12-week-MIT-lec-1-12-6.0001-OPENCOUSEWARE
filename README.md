@@ -473,3 +473,109 @@ Week 5 transformed GitHub from a basic publishing platform into an important par
 By learning version control concepts, Markdown, pull requests, merge conflicts, and professional repository management, I developed skills that will remain relevant as future projects become larger and more collaborative.
 
 The experience also reinforced the importance of treating software development as an organised engineering process rather than simply writing code until a program works.
+
+
+
+
+
+
+# Week 6 — Tic-Tac-Toe: Initial Development
+
+## Overview
+
+Week 6 marked a transition from small programming exercises toward the development of a complete interactive game: **Tic-Tac-Toe**.
+
+The purpose of this project was not simply to recreate a familiar game. Instead, Tic-Tac-Toe provided a compact environment in which fundamental programming concepts could be combined into a single system.
+
+The project required planning, board design, user interaction, validation, game-state management, and decision-making logic.
+
+## Project Objectives
+
+The primary objectives were:
+
+* Define the rules of Tic-Tac-Toe.
+* Design a 3×3 game board.
+* Represent the board using Python data structures.
+* Display the current game state.
+* Allow players to select available positions.
+* Prevent invalid moves.
+* Detect winning conditions.
+* Detect draws.
+* Manage turns correctly.
+* Establish a foundation for more advanced game logic.
+
+## Planning the Game
+
+Before implementation, the game's rules and structure needed to be clearly defined.
+
+Tic-Tac-Toe consists of a 3×3 board in which players take turns placing their respective symbols. A player wins by obtaining three matching symbols in a horizontal, vertical, or diagonal line.
+
+If all positions become occupied without a winning combination, the game ends in a draw.
+
+Although these rules are simple, translating them into program logic requires careful planning.
+
+## Board Representation
+
+The board was represented using a Python list containing nine positions.
+
+Each position corresponds to one square on the 3×3 board. This representation provides a simple way to store the state of the game while allowing individual positions to be accessed and modified.
+
+A visual representation is then generated from this underlying data.
+
+This separation between data and presentation is an important programming concept. The board itself is stored as information, while the display function determines how that information is presented to the player.
+
+## Player Interaction
+
+The player needs a clear method of selecting a square.
+
+The program therefore accepts user input and converts it into a board position. Before making a move, the program checks whether the selected square is available.
+
+This validation is essential because allowing players to overwrite existing moves would break the rules of the game.
+
+## Game-State Management
+
+The program must continuously maintain an accurate representation of the current game state.
+
+After every move, the game needs to determine:
+
+* Whose turn it is.
+* Which squares are occupied.
+* Whether someone has won.
+* Whether the board is full.
+* Whether the game should continue.
+
+This requires multiple components of logic to work together correctly.
+
+## Winning Conditions
+
+Detecting a winner is one of the central challenges of Tic-Tac-Toe.
+
+There are eight possible winning combinations: three rows, three columns, and two diagonals.
+
+The program must examine these combinations after each move and determine whether any contains three matching symbols.
+
+This provided useful practice in translating a real-world rule into a precise computational condition.
+
+## Challenges
+
+One of the main challenges was ensuring that individual functions interacted correctly.
+
+A change to board representation, for example, can affect the display system, input handling, and win detection.
+
+This demonstrated why planning and modular programming are important.
+
+## Lessons Learned
+
+The most important lesson from Week 6 was that even a small game can contain considerable programming complexity.
+
+Tic-Tac-Toe required me to think about data representation, user interaction, validation, game states, and logical conditions simultaneously.
+
+The project also reinforced the importance of designing the system before implementing individual features.
+
+## Conclusion
+
+Week 6 established the foundation of the Tic-Tac-Toe project.
+
+Rather than treating the game as one large block of code, the project was approached as a collection of interconnected systems.
+
+This approach improved my understanding of program architecture and prepared the project for further refinement and improvement in the following week.
