@@ -270,3 +270,108 @@ Week 3 represented an important step forward in my development as a programmer.
 The Student Grade Manager required me to move beyond isolated values and work with organised collections of information. By combining multiple Python data structures with previously learned programming concepts, I gained a more complete understanding of how practical applications are constructed.
 
 This knowledge provides an essential foundation for future projects involving larger datasets and more sophisticated systems.
+
+
+
+
+
+
+# Week 4 — Algorithms, Computational Thinking & Robotics Scoring
+
+## Overview
+
+Week 4 shifted the focus from individual Python features toward the broader principles of **algorithms, computational thinking, and structured problem solving**.
+
+Learning programming syntax is important, but professional software development requires considerably more than knowing how to write Python statements. Developers must be able to analyse problems, identify patterns, design logical procedures, and transform abstract requirements into reliable algorithms.
+
+The main practical project for this week was the **Robot Competition Score Manager**.
+
+This project provided a useful bridge between programming fundamentals and real-world computational problems because competition scoring involves structured data, calculations, ranking, and decision-making.
+
+## Learning Objectives
+
+The primary objectives of Week 4 were:
+
+* Understand the concept of an algorithm.
+* Develop computational thinking skills.
+* Break complex problems into manageable components.
+* Design logical solutions before implementation.
+* Apply Python fundamentals to a realistic problem.
+* Work with structured competition data.
+* Calculate and compare scores.
+* Produce meaningful results from raw information.
+* Document software professionally.
+
+## Algorithms
+
+An algorithm is a clearly defined sequence of steps used to solve a problem.
+
+Although algorithms are often associated with advanced computer science, even simple programs rely on them.
+
+For the Robot Competition Score Manager, the program needed a logical procedure for accepting scores, processing them, and determining meaningful results.
+
+Thinking algorithmically required me to consider the problem independently from the Python syntax. The goal was first to determine what the program needed to accomplish and only then determine how Python could implement the solution.
+
+## Computational Thinking
+
+Computational thinking involves approaching problems in a structured manner.
+
+Rather than attempting to solve an entire problem simultaneously, it can be divided into smaller components.
+
+For the competition manager, these components could include:
+
+1. Registering competition information.
+2. Storing team names.
+3. Recording scores.
+4. Processing results.
+5. Comparing teams.
+6. Producing rankings.
+7. Displaying the final information clearly.
+
+This decomposition made the overall problem significantly easier to understand.
+
+## Robot Competition Score Manager
+
+The Robot Competition Score Manager was developed as the week's primary practical application.
+
+The program focuses on managing scoring information for a robotics competition. Such a system provides a realistic programming scenario because it combines user input, data storage, calculations, comparisons, and output.
+
+The project also encouraged consideration of data accuracy. A scoring system cannot simply assume that every input will be correct.
+
+This reinforced lessons from previous weeks concerning validation, error handling, and reliable program behaviour.
+
+## Problem Solving
+
+One of the strongest lessons from Week 4 was the importance of separating **problem solving** from **implementation**.
+
+When programmers immediately begin writing code, they can easily become trapped by the details of syntax before fully understanding the problem.
+
+A better process is to identify requirements, break them down, develop an algorithm, consider edge cases, and then implement the solution.
+
+This approach is increasingly important as projects become larger.
+
+## Documentation
+
+Documentation was another important part of the week.
+
+A professional software project should explain its purpose, functionality, usage, and development decisions. A README provides users and developers with an accessible introduction to the project.
+
+Documentation also forces the developer to understand the project clearly enough to explain it to someone else.
+
+## Lessons Learned
+
+Week 4 demonstrated that becoming a stronger programmer is not simply a matter of learning more Python commands.
+
+The ability to reason about problems is equally important.
+
+Algorithms provide the structure, computational thinking provides the methodology, and programming languages provide the implementation tools.
+
+## Conclusion
+
+Week 4 concluded the first major stage of my Python development plan.
+
+Across the first four weeks, I progressed from fundamental syntax and simple calculations toward structured applications involving data, logic, and algorithms.
+
+The Robot Competition Score Manager represented this progression by requiring multiple programming concepts to work together around a realistic problem.
+
+The knowledge gained during this week provides a foundation for approaching increasingly complex software and robotics-related projects.
