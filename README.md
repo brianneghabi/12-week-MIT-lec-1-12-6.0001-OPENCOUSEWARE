@@ -164,3 +164,109 @@ Week 2 expanded my Python knowledge beyond basic syntax and introduced the found
 By studying conditionals, loops, and nested loops and applying them to a complete game, I developed a stronger understanding of how programs make decisions, repeat operations, and respond to users.
 
 The Number Guessing Game also represented an important step toward building larger projects because it required multiple concepts to operate together within one coherent application.
+
+
+
+
+
+# Week 3 — Data Structures & Student Grade Manager
+
+## Overview
+
+Week 3 focused on Python's fundamental data structures: **strings, lists, tuples, and dictionaries**.
+
+While variables are useful for storing individual pieces of information, real software frequently needs to manage collections of related data. Data structures provide the mechanisms required to organise that information efficiently and meaningfully.
+
+The practical project for this week was a **Student Grade Manager**, which provided a realistic context for applying these structures.
+
+## Learning Objectives
+
+The primary objectives were:
+
+* Understand Python strings and string manipulation.
+* Learn how lists store ordered collections.
+* Understand tuples and immutable collections.
+* Learn how dictionaries associate keys with values.
+* Determine which data structure is appropriate for different situations.
+* Combine multiple structures within a practical program.
+* Improve organisational thinking when designing software.
+* Test and document a complete Python application.
+* Publish the project to GitHub.
+
+## Strings
+
+Strings represent textual information and are fundamental to almost every interactive application.
+
+During this week, I explored how strings can be created, accessed, manipulated, and processed. Understanding strings was particularly useful for handling student names, messages, labels, and other textual information within the Grade Manager.
+
+String operations also demonstrated how programming languages allow developers to transform raw information into meaningful output.
+
+## Lists
+
+Lists introduced the ability to store multiple values in a single structure.
+
+This is essential when working with collections of related information. Instead of creating separate variables for every grade, a list can contain multiple grades and allow the program to process them systematically.
+
+Lists are particularly useful because they are ordered and mutable, meaning their contents can be changed during program execution.
+
+## Tuples
+
+Tuples provided an important contrast to lists.
+
+Although tuples can also contain multiple values, their contents cannot normally be modified after creation. This immutability makes tuples useful when information should remain fixed.
+
+Understanding the distinction between mutable and immutable structures is important because the choice of data structure can influence the safety and behaviour of a program.
+
+## Dictionaries
+
+Dictionaries introduced another significant programming concept: associating information through **key-value pairs**.
+
+This structure is particularly appropriate for the Student Grade Manager because student information naturally involves relationships.
+
+For example, a student's name can function as a key while their grades or related information can be stored as the corresponding value.
+
+Dictionaries therefore provide a more meaningful organisational model than simply storing unrelated values in separate variables.
+
+## Student Grade Manager
+
+The main project for Week 3 was the Student Grade Manager.
+
+The program was designed to organise student-related grade information and perform useful operations on that data.
+
+Developing the project required me to consider how information should be represented before writing the code. This was an important progression from earlier projects because the problem was no longer simply about making a program respond to a single input.
+
+Instead, the program needed to manage structured information.
+
+The project therefore combined multiple Python concepts, including strings, lists, dictionaries, loops, conditionals, and functions.
+
+## Problem-Solving & Data Design
+
+One of the most important lessons from this project was that programming begins before the first line of code is written.
+
+Before implementing functionality, it is necessary to decide what information the program needs, how that information should be represented, and how different pieces of data relate to one another.
+
+Choosing an inappropriate data structure can make an otherwise simple problem unnecessarily complicated.
+
+## Testing
+
+Testing focused on ensuring that the program behaved correctly under different conditions.
+
+I considered situations involving different students, multiple grades, varying input, and calculations based on stored information.
+
+Testing also helped identify assumptions within the program and encouraged me to design the application in a more robust manner.
+
+## Lessons Learned
+
+Week 3 significantly improved my understanding of how software manages information.
+
+The key lesson was that data structures are not merely language features to memorise. They are tools for modelling real-world information.
+
+Understanding when to use a list, tuple, dictionary, or string makes it possible to design cleaner and more efficient solutions.
+
+## Conclusion
+
+Week 3 represented an important step forward in my development as a programmer.
+
+The Student Grade Manager required me to move beyond isolated values and work with organised collections of information. By combining multiple Python data structures with previously learned programming concepts, I gained a more complete understanding of how practical applications are constructed.
+
+This knowledge provides an essential foundation for future projects involving larger datasets and more sophisticated systems.
